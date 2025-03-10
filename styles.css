@@ -215,3 +215,18 @@ footer a {
     left: 90%;
     animation-duration: 4.7s;
 }
+header, footer {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #222;
+    color: white;
+}
+header {
+    top: 0;
+    left: 0;
+}
+footer {
+    bottom: 0;
+    left: 0;
+}
