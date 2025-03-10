@@ -230,3 +230,33 @@ footer {
     bottom: 0;
     left: 0;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff; /* Adjust as needed */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 50px; /* Adjust size */
+    width: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
